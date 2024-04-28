@@ -29,7 +29,7 @@ export async function POST(request:NextRequest){
 
 export async function GET(){
     try{
-        const allCartsDetails = await CartSchema.find()
+        const allCartsDetails = await CartSchema.find().sort({dateField:-1})
         return NextResponse.json({mesage:"cart data is found",success:true,allCartsDetails})
     }catch(error:any){
         return NextResponse.json({mesage:"cart data is not found",success:false})
