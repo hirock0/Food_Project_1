@@ -319,7 +319,7 @@ export default function Nav() {
                 {/* delete_popup_start */}
                 <div
                   id="deletepopup"
-                  className="text-xs invisible h-full absolute right-0 left-0 bottom-0 z-50 bg-slate-800/80 flex items-center justify-center"
+                  className="text-xs invisible w-52 h-96  fixed top-24 max-sm:top-20 right-1 z-50 bg-slate-800/80 flex items-center justify-center"
                 >
                   <div className=" border rounded-md p-5">
                     <h1 className=" text-center ">Do you want to delete?</h1>
