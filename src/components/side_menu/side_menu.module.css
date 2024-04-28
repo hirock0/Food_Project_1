@@ -1,0 +1,12 @@
+#sidemenu_section{
+    transition: ease-in-out .5s;
+    background: linear-gradient(rgba(0, 0, 0, 0.479),rgba(0, 0, 0, 0.637),rgba(0, 0, 0, 0.411)), url("/images/side_menu_backgroundImage.png");
+    background-size: cover;
+    background-position: center;
+}
+#Ul li:hover{
+    box-shadow: 0 0 10px cyan;
+}   
+#Ul li{
+    @apply border p-4 rounded-md hover:bg-slate-800 active:bg-slate-900
+}

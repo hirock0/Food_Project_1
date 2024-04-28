@@ -1,0 +1,17 @@
+#main{
+    background: linear-gradient(rgba(0, 0, 0, 0.658),rgba(0, 0, 0, 0.507),rgba(0, 0, 0, 0.452)), url(https://cdn.pixabay.com/photo/2017/02/15/10/39/salad-2068220_1280.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#main::-webkit-scrollbar{
+    display: none;
+}
+
+#BoughtPopup{
+    transition: all 1s ease-in-out;
+
+}
+#buyDetails::-webkit-scrollbar{
+    display: none;
+
+}

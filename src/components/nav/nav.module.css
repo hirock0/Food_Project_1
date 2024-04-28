@@ -1,0 +1,25 @@
+#continentaldiv{
+    background: url(https://cdn.pixabay.com/photo/2024/02/23/08/27/apple-8591539_1280.jpg);
+    background-size: cover;
+    background-position: center;
+    transition: ease-in-out .5s;
+  
+}
+#favouritediv{
+    background: url(https://cdn.pixabay.com/photo/2024/02/23/08/27/apple-8591539_1280.jpg);
+    background-size: cover;
+    background-position: center;
+    transition: ease-in-out .5s;
+}
+#CartDiv{
+    transition: ease-in-out .5s;
+
+}
+#CartDiv::-webkit-scrollbar{
+    display: none;
+}
+    #BuyPopUpDiv{
+        background: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.493),rgba(0, 0, 0, 0.555)), url(https://cdn.pixabay.com/photo/2024/01/18/17/20/ai-generated-8517258_640.jpg);
+        background-size: cover;
+        background-position: center;
+}

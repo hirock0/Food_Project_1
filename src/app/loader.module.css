@@ -1,0 +1,13 @@
+
+#loaderDiv{
+    border: solid 10px rgb(129, 129, 129);
+    border-top: solid 10px rgb(0, 0, 0);
+    animation: rotated 1s infinite ease-in-out;
+}
+@keyframes rotated {
+        from{
+            transform: rotate(0deg);
+        }to{
+            transform: rotate(360deg);
+        }
+}

@@ -1,0 +1,9 @@
+#allLinkDiv ul li{
+    @apply w-32 h-8  flex justify-center items-center  max-sm:w-full rounded-md hover:bg-green-700 active:bg-green-900
+} 
+@media not all and (min-width: 640px) {
+    #allLinkDiv ul li{
+        font-size: 3vmin;
+       
+    } 
+}

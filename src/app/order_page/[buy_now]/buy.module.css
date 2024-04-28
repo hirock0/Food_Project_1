@@ -1,0 +1,17 @@
+#main{
+    background: url(https://cdn.pixabay.com/photo/2024/03/07/10/30/mushrooms-8618284_640.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#main::-webkit-scrollbar{
+    display: none;
+}
+
+#BuyPopUpDiv{
+        background: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.493),rgba(0, 0, 0, 0.555)), url(https://cdn.pixabay.com/photo/2024/01/18/17/20/ai-generated-8517258_640.jpg);
+        background-size: cover;
+        background-position: center;
+}
+#BuyPopUpDiv::-webkit-scrollbar{
+    display: none;
+}
